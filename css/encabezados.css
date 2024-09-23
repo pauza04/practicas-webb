@@ -1,0 +1,20 @@
+/*documento css*/
+
+body{background-color: rgb(255, 250, 223);
+    font-family: "Oswald", sans-serif;}
+  
+h1{color: rgb(83, 0, 0); 
+    font-size: 2em; 
+    text-align: center;
+    font-weight: bold; 
+    text-transform: uppercase;
+    text-decoration: underline;}
+
+h2{color: rgb(252, 193, 235);}
+
+h3{color: rgb(82, 0, 0);}
+
+h4{color: rgb(255, 195, 236);}
+ p small { color: rgb(255, 201, 255);
+        background-color: rgb(96, 0, 0); }
+ div p {line-height: 1.5; }
