@@ -1,0 +1,20 @@
+/*documeno css*/
+.body {background-color: blueviolet;
+}
+ * {margin: 0%;
+padding: 0%;}
+ section, div { box-sizing: border-box;}
+
+
+ .container { display: flex;
+ background-color: rgb(255, 145, 0);
+ padding: 15px;
+flex-direction: row-reverse;}
+  
+ .item {  background-color: blueviolet;
+ width: 25%;
+min-height: 100px;}
+
+
+
+

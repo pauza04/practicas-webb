@@ -1,0 +1,62 @@
+header {
+    background: #7eceff;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+body {
+    background-color: rgb(255, 255, 238);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+  
+}
+
+.platillo {
+    width: 90%; /* Ajusta el ancho de cada platillo */
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.img 
+{
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.izq {
+    float: left;
+}
+
+.der {
+    float: right;
+}
+
+/* Clearfix para limpiar floats */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer 
+{
+    text-align: center;
+    padding: 10px 0;
+    color: #620606;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

@@ -1,0 +1,75 @@
+/*documento css*/
+/* Estilos generales del cuerpo */
+body {
+    background: linear-gradient(45deg,transparent 14%, #dae0ff 15%, #dae0ff 20%, transparent 21%, transparent 79%, #dae0ff  80%, #dae0ff 85%, transparent 86%),linear-gradient(135deg,transparent 14%, #dae0ff 15%, #dae0ff 20%, transparent 21%, transparent 79%, #dae0ff  80%, #dae0ff 85%, transparent 86%), radial-gradient(transparent 14%, #dae0ff 15%, #dae0ff 25%, transparent 26%);
+    background-size: 1em 1em;
+    background-color: #ffffff;
+    opacity: 1
+    font-family:Arial, sans-serif; /* Tipo de letra */
+    margin:0; /* Sin margen */
+    padding:0; /* Sin relleno */
+}
+
+/* Estilo del encabezado h1 */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: #0f0065; /* Color del texto */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo para el párrafo */
+p {
+    max-width: 600px; /* Ancho máximo de 600px */
+    margin: 20px auto; /* Centrar con márgenes automáticos */
+    line-height: 1.6; /* Interlineado */
+    color: #00055c; /* Color del texto */
+}
+
+/* Estilo del encabezado h2 */
+h2 {
+    text-align: center; /* Centrar el texto */
+    color: #13006f; /* Color del texto */
+}
+
+/* Estilos del formulario */
+form {
+    background: #fff; /* Fondo blanco */
+    padding: 20px; /* Relleno del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 400px; /* Ancho máximo de 400px */
+    margin: 20px auto; /* Centrar */
+}
+
+/* Estilos de las etiquetas del formulario */
+label {
+    display: block; /* Muestra las etiquetas como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos de los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno */
+    margin-bottom: 20px; /* Margen inferior */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del botón de envío */
+input[type="submit"] {
+    background-color: #5cb85c; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Relleno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+input[type="submit"]:hover
+{
+    background-color: #4cae4c; }/* Color de fondo al pasar el mouse */

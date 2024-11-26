@@ -1,0 +1,21 @@
+body{background-color: rgb(230, 117, 175);}
+
+
+
+
+
+
+
+
+ .tablas tr:first-child{background-color: rgb(187, 255, 0);}
+ .contenido p:nth-child(even){color: rgb(255, 0, 0);}
+ .contenido a:link {color: brown;
+                   text-decoration: none;
+                 text-transform: uppercase;
+                }
+.contenido a:hover{ color: blueviolet;
+                  background-color: black;}
+
+.contenido a:active {font-size: 2em;
+                    background-color: transparent;}
+

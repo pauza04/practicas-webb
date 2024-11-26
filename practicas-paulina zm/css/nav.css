@@ -1,0 +1,55 @@
+/*DOCUMENTO CSS*/
+* {margin: 0%;
+padding: 0%;}
+
+header , div , nav , a{ box-sizing: border-box;}
+ 
+.body { font-family: "Oswald", serif;}
+
+/*Encabezados*/
+h1{}
+
+h2{}
+
+/*LAYOUT*/  
+
+.cabecera{width: 100%;
+          min-height: 1px;
+          background: #9898f8;}
+
+.bar{ width: 100%;
+      min-width: 1px;
+}
+.logo{ text-align: center;
+       font-size: 3em;
+       padding: 8px 0px;}
+
+.menu{width: 100%;
+      min-height: 1px; }
+
+.links{ width: 100%;
+       min-height: 1px;
+       padding: 0px 16px;
+       background-color: whitesmoke;
+       display: flex;}
+
+.items{ width: 25%;
+        height: 30px;
+        text-align: center;
+         border: 1px solid black;}
+
+.items a {padding: 8px 0px 8px 0px;
+         text-decoration: none;
+         color: black;
+         text-transform: uppercase; 
+         font-weight: 600;}
+
+.items:active{background:gray ;
+              color: blueviolet;}
+              
+@media only screen and (min-width:1024px){
+   .links{width: 70%;
+    margin: auto;}  
+    .items:first-child{border-top-left-radius: 20px;
+                   border-top-left-radius: ;}  
+}
